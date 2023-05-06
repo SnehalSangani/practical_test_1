@@ -33,8 +33,6 @@ class _signupState extends State<signup> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text("Create",style: TextStyle(fontWeight: FontWeight.bold,fontSize: 60,color: Colors.blue.shade700),),
-                    Text("account",style: TextStyle(fontSize: 20,color: Colors.blue.shade700),),
                     SizedBox(height: 30,),
                     TextField(
                       controller: txtemail,style: TextStyle(fontWeight: FontWeight.bold),
